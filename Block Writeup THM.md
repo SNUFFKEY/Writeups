@@ -4,7 +4,7 @@
 
 I looked the pcap file provided and then I looked for the first line with `\Workgroup` in it then 
 
-(Pasted image 20240904200416.png)
+(./  Pasted image 20240904200416.png)
 
 What is the username of the first person who accessed our server?  
 
