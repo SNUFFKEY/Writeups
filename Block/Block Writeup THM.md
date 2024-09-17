@@ -4,7 +4,7 @@
 
 I looked the pcap file provided and then I looked for the first line with `\Workgroup` in it then 
 
-![Screenshot](https://github.com/SNUFFKEY/Writeups/blob/main/Pasted%20image%2020240904200416.png)
+![Screenshot](https://github.com/SNUFFKEY/Writeups/blob/main/Block/Pasted%20image%2020240904200416.png)
 
 What is the username of the first person who accessed our server?  
 
@@ -12,9 +12,9 @@ What is the username of the first person who accessed our server?
 
 I got the password by using pypykatz on the `lsass.DMP` file provided and cracked the NT hash in the output
 
-![Screenshot](https://github.com/SNUFFKEY/Writeups/blob/main/Pasted%20image%2020240904200553.png)
+![Screenshot](https://github.com/SNUFFKEY/Writeups/blob/main/Block/Pasted%20image%2020240904200553.png)
 
-![](https://github.com/SNUFFKEY/Writeups/blob/main/Pasted%20image%2020240904200632.png)
+![](https://github.com/SNUFFKEY/Writeups/blob/main/Block/Pasted%20image%2020240904200632.png)
 
 What is the password of the user in question 1?
 
@@ -26,9 +26,9 @@ We have to decrypt the SMB traffic and I found out how to do this by using this 
 
 You use the session keys from the python program provided in the article and decrypt the encrypted SMB traffic 
 
-![](https://github.com/SNUFFKEY/Writeups/blob/main/Pasted%20image%2020240904201446.png)
+![](https://github.com/SNUFFKEY/Writeups/blob/main/Block/Pasted%20image%2020240904201446.png)
 
-![](https://github.com/SNUFFKEY/Writeups/blob/main/Pasted%20image%2020240904201207.png)
+![](https://github.com/SNUFFKEY/Writeups/blob/main/Block/Pasted%20image%2020240904201207.png)
 
 What is the flag that the first user got access to?  
 
@@ -37,7 +37,7 @@ What is the flag that the first user got access to?
 
 Look for the second username with `\Workgroup` 
 
-![](https://github.com/SNUFFKEY/Writeups/blob/main/Pasted%20image%2020240904201320.png)
+![](https://github.com/SNUFFKEY/Writeups/blob/main/Block/Pasted%20image%2020240904201320.png)
 
 What is the username of the second person who accessed our server?  
 
@@ -46,7 +46,7 @@ What is the username of the second person who accessed our server?
 You use pypykatz and if you look for the username from the previous question you should see it 
 
 
-![](https://github.com/SNUFFKEY/Writeups/blob/main/Pasted%20image%2020240904201749.png)
+![](https://github.com/SNUFFKEY/Writeups/blob/main/Block/Pasted%20image%2020240904201749.png)
 
 What is the hash of the user in question 4?
 
@@ -54,7 +54,7 @@ What is the hash of the user in question 4?
 
 
 The flag is in the exported file after decrypting the traffic with the key provided after running the python script 
-![](https://github.com/SNUFFKEY/Writeups/blob/main/Pasted%20image%2020240904201014.png)
+![](https://github.com/SNUFFKEY/Writeups/blob/main/Block/Pasted%20image%2020240904201014.png)
 
 What is the flag that the second user got access to?
 
