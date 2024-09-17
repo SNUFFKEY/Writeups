@@ -14,7 +14,7 @@ I got the password by using pypykatz on the `lsass.DMP` file provided and cracke
 
 ![Screenshot](https://github.com/SNUFFKEY/Writeups/blob/main/Pasted%20image%2020240904200553.png)
 
-![[Pasted image 20240904200632.png]]
+![](https://github.com/SNUFFKEY/Writeups/blob/main/Pasted%20image%2020240904200632.png)
 
 What is the password of the user in question 1?
 
